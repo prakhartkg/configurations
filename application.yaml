@@ -1,6 +1,6 @@
 spring:
   zipkin:
-    base-url: http://zipkin-svc.infra.svc.cluster.local
+    base-url: http://zipkin-svc
 
 eureka:
   instance:
