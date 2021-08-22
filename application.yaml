@@ -3,9 +3,6 @@ spring:
     base-url: http://zipkin.default.svc.cluster.local:9411
 
 eureka:
-  instance:
-    preferIpAddress: true
-    hostname: eureka-0
   client:
     registerWithEureka: true
     fetchRegistry: true
