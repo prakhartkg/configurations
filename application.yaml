@@ -25,3 +25,9 @@ management:
   endpoint:
     health:
       show-details: always
+      
+logging:
+  file:
+    name: application.log
+    max-size: 20MB
+    max-history: 20
