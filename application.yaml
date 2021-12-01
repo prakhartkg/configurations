@@ -2,11 +2,11 @@ spring:
   boot:
     admin:
       client:
-        url: ${SPRING_ADMIN_SERVER_URL:http://localhost:8093}
+        url: ${SPRING_ADMIN_SERVER_URL:http://spring-admin-service-svc.default.svc.cluster.local:8093}
         username: "admin"
         password: "admin"
   zipkin:
-    base-url: ${ZIPKIN_BASE_URL:http://localhost:9411}
+    base-url: ${ZIPKIN_BASE_URL:http://zipkin.default.svc.cluster.local:9411}
   
 
 management:
